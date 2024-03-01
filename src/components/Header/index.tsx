@@ -16,12 +16,12 @@ export function Header() {
                     <Radio size={32} />
                     <span><strong>Rádio</strong>Telles</span>
                 </Logo>
-                { local.pathname === '/empresa' ?
+                { local.pathname === '/' ?
                     <Link to="/contato">
                         <Button>Contato</Button>
                     </Link>
                     :
-                    <Link to="/empresa">
+                    <Link to="/">
                         <Button>Empresa</Button>
                     </Link>
                 }

@@ -5,7 +5,7 @@ import { Contato } from './pages/Contato'
 export function AppRoutes() {
   return (
     <Routes>
-        <Route path='/empresa' element={<Empresa />} />
+        <Route path='/' element={<Empresa />} />
         <Route path='/contato' element={<Contato />} />
     </Routes>
   )
